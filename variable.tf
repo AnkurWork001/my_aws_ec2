@@ -6,7 +6,7 @@ variable "aws_region" {
 variable "access_key" {
   description = "aws access key"
   type        = string
-  sensitive = true
+  sensitive   = true
 }
 
 variable "secret_key" {
