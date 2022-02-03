@@ -4,12 +4,13 @@ variable "aws_region" {
 }
 
 variable "access_key" {
-  description = "access_key"
+  description = "aws access key"
   type        = string
   sensitive = true
 }
+
 variable "secret_key" {
-  description = "secret_key"
+  description = "aws access key"
   type        = string
   sensitive = true
 }
