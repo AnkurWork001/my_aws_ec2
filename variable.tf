@@ -4,8 +4,10 @@ variable "aws_region" {
 }
 
 variable "access_key" {
-  value =var.access_key
+  description = "access_key"
+  type        = string
 }
 variable "secret_key" {
-  value = var.secret_key
+  description = "secret_key"
+  type        = string
 }
